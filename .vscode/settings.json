@@ -9,5 +9,6 @@
     "editor.formatOnSave": true
   },
   "prettier.configPath": ".prettierrc.cjs",
-  "prettier.ignorePath": ".prettierignore"
+  "prettier.ignorePath": ".prettierignore",
+  "typescript.tsdk": "node_modules/typescript/lib"
 }

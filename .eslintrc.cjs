@@ -5,6 +5,7 @@ module.exports = {
   root: true,
   extends: [
     'plugin:@typescript-eslint/recommended',
+    'plugin:@typescript-eslint/recommended-requiring-type-checking',
     'next/core-web-vitals',
     'prettier',
   ],
@@ -22,7 +23,6 @@ module.exports = {
       },
     ],
     '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
-    // causes error when using require in cjs files
-    '@typescript-eslint/no-var-requires': ['off'],
+    '@typescript-eslint/no-var-requires': 'off',
   },
 }
